@@ -1,5 +1,5 @@
 ```
-# Python
+# Dependencies
 __pycache__/
 *.pyc
 *.pyo
@@ -8,6 +8,8 @@ __pycache__/
 env/
 venv/
 .venv/
+.ENV
+.venv.bak/
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -18,24 +20,20 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-.DS_Store
-Thumbs.db
-
-# Excel output files
-*.xlsx
-*.xls
-*.csv
-
-# IDE
+.git/modules/
 .vscode/
 .idea/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Testing
-.pytest_cache/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+dist/
+build/
+*.egg-info/
+.eggs/
 .mypy_cache/
+.pytest_cache/
+.hypothesis/
+__pypackages__/
 ```
